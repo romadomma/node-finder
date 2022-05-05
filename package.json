@@ -1,0 +1,11 @@
+{
+  "name": "node-finder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Roman Kadykov",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  }
+}

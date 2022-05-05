@@ -39,6 +39,9 @@ const fileScan = async (fileName, findPhrases) => {
             }
         }
     });
+    await new Promise(res => {
+        readStream.on('end', () => res());
+    });
     resetPhrases(findPhrases);
 }
 
